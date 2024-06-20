@@ -14,3 +14,8 @@ updates:
       - "btschwertfeger"
     ignore:
       - dependency-name: "ruff"
+
+  - package-ecosystem: pip
+    directory: /doc
+    schedule:
+      interval: daily
